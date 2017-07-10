@@ -56,7 +56,7 @@ int main() {
 			for (int i = 0; i < 9; i++) {
 				auto next = node;
 				if (node.nextR) {
-					next.rx = dx[i]; //¶‘¤‚ðA‰E‹r‚É‘Î‚µ‚ÄOK‚Ì”ÍˆÍ‚Ì‚Ç‚ê‚©‚ÉˆÚ“®
+					next.rx = dx[i]; //¶‘¤‚ðA‰E‹r‚É‘Î‚µ‚ÄOK‚Ì”ÍˆÍ‚Ì‚Ç‚ê‚©‚ÉˆÚ“® 
 					next.ry = dy[i];
 				}
 				else {
